@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <body>
+
+        <ui:composition template="./WEB-INF/plantillas/frontend.xhtml">
+
+            <ui:define name="tituloPestaña">
+                Editar Implemento
+            </ui:define>
+
+            <ui:define name="CuadroDeBotonesSesion">
+                
+            </ui:define>
+
+            <ui:define name="OpcionesMenu">
+                
+            </ui:define>
+
+            <ui:define name="contenido">
+                <h1>Implementos Deportivos |  Editar Implemento</h1>
+                
+            <h:form>
+            <table>
+                <tr>
+                    <td><h:outputText value="id"/></td>
+                    <td><h:outputText value=""/></td>
+                </tr>
+                <tr>
+                    <td><h:outputText value="nombre"/></td>
+                    <td><h:inputText /></td>
+                </tr>
+                <tr>
+                    <td><h:outputText value="descripción"/></td>
+                    <td><h:inputTextarea /></td>
+                </tr>
+                <tr>
+                    <td><h:outputText value="tipo: "/></td>
+                    <td>
+                        <h:selectOneMenu>
+                            <f:selectItem itemLabel="futbol"/>
+                            <f:selectItem itemLabel="futbol sala"/>
+                            <f:selectItem itemLabel="microfutbol"/>
+                        </h:selectOneMenu>
+                    </td>
+                </tr>
+                <tr>
+                    <td><h:outputText value="imagen"/></td>
+                    <td><h:inputText /></td></tr>
+                <tr>
+                    <td><h:outputText value="recomendaciones de uso"/></td>
+                    <td><h:inputText /></td>
+                </tr>
+                <tr>
+                    <td><h:outputText value="Estado actual del implemento"/></td>
+                    <td><h:inputTextarea /></td>
+                </tr>
+                <tr>
+                    <td><h:outputText value="fecha de llegada"/></td>
+                    <td><h:inputTextarea /></td>
+                </tr>
+                <tr>
+                    <td><h:outputText value="valor"/></td>
+                    <td><h:inputTextarea /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><h:commandButton value="Editar Prestamo"/></td>
+                </tr>
+            </table>
+        </h:form>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

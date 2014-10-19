@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+    <body>
+
+        <ui:composition template="./WEB-INF/plantillas/frontend.xhtml">
+
+            <ui:define name="tituloPestaña">
+                Reserva de Implementos
+            </ui:define>
+
+            <ui:define name="CuadroDeBotonesSesion">
+                
+            </ui:define>
+
+            <ui:define name="OpcionesMenu">
+                
+            </ui:define>
+
+            <ui:define name="contenido">
+                
+                  <div id="titcont">    
+            <img src="../resources/imagenes/ImagensCdu/iconResImpl.png" width="62" height="60" alt="iconResImpl"/>
+            <h1>Reserva de implementos deportivos</h1>
+            <a class="imgatras" href="#"> </a>
+            <div class="separatorline" align="center"/>
+        </div>   
+             
+            <div id="menulat">
+                
+                <ul>
+                    <li><a href="#">Futbol</a></li>
+                    <li><a href="#">Ajedrez</a></li>
+                    <li><a href="#">Tennis</a></li>
+                </ul>
+                </div>               
+                
+        <div id="subcontent">           
+            <table class="resimpl">
+                
+                <th>Nombre</th>
+                <th>Cantidad Total</th>
+                <th>En Prestamo</th>
+                <th>Ver Prestamos</th>
+                <th>Acciones</th>
+                
+                <tr>
+                    <td>Peto</td>
+                    <td>25</td>
+                    <td>2</td>
+                    <td><a href="#">Prestamos</a> </td>
+                    <td><a href="#">Agregar Reserva</a></td>      
+                </tr>
+                   <tr class="alt">
+                    <td>Balon de Futbol</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td><a href="#">Prestamos</a> </td>
+                    <td><a href="#">Agregar Reserva</a></td>      
+                </tr>
+                   <tr>
+                    <td>Tablero de Ajedrez</td>
+                    <td>14</td>
+                    <td>5</td>
+                    <td><a href="#">Prestamos</a> </td>
+                    <td><a href="#">Agregar Reserva</a></td>      
+                </tr>
+             
+            </table>           
+        </div>
+                
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

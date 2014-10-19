@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+    <body>
+
+        <ui:composition template="./WEB-INF/plantillas/frontend.xhtml">
+
+            <ui:define name="tituloPestaña">
+                Reserva Implemento
+            </ui:define>
+
+            <ui:define name="CuadroDeBotonesSesion"></ui:define>
+
+            <ui:define name="OpcionesMenu"></ui:define>
+
+            <ui:define name="contenido">
+                 <div id="titcont">    
+            <img src="../resources/imagenes/ImagensCdu/iconResImpl.png" width="62" height="60" alt="iconResImpl"/>
+            <h1>Reservas realizadas del Implemento: Peto</h1>
+            <a class="imgatras" href="#"> </a>
+            <div class="separatorline" align="center"/>         
+        </div>     
+                
+            <script>
+           function focusbusc()
+{
+   document.getElementById("txtbusc").value= ""; 
+}
+function lostfocusbusc()
+{  
+        var x = document.getElementById("txtbusc").value;
+        if(x === "")
+        document.getElementById("txtbusc").value= "Ingrese el nombre o apellido de un usuario"; 
+}     </script>
+          <div id="subcontent">  
+              <input class="txtbuscarusu" id="txtbusc" onblur="lostfocusbusc()" onfocus="focusbusc()" type="text" value="Ingrese el nombre o apellido de un usuario"></input>
+              <input class="btnbuscarusu" type="button" value="Buscar"></input>
+              <a class="imgimp" href="#"> </a>
+              <a class="imgagreg" href="#"> </a>
+              <table class="resximpl">
+                
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Cantidad </th>
+                <th>Dias de Retraso</th>
+                <th>Fecha-Hora Inicio</th>
+                <th>Fecha-Hora Fin</th>
+                <th>Acciones</th>
+                
+                <tr>
+                    <td>Carlos</td>
+                    <td>Perez</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>05-06-14 1:00 pm</td>
+                    <td>12-06-14 1:00 pm</td>
+                    <td><a href="#">Editar</a>&ensp;&ensp;<a href="#">Eliminar</a></td>     
+                </tr>
+                   <tr class="alt">
+                    <td>Julio</td>
+                    <td>Osorio</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>07-06-14 3:00 pm</td>
+                    <td>17-06-14 3:00 pm</td>
+                    <td><a href="#">Editar</a>&ensp;&ensp;<a href="#">Eliminar</a></td>      
+                </tr>
+                   <tr>
+                    <td>Maria</td>
+                    <td>Velez</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>03-06-14 9:00 am</td>
+                    <td>19-06-14 9:00 am</td>
+                    <td><a href="#">Editar</a> &ensp;&ensp;<a href="#">Eliminar</a></td>     
+                </tr>
+             
+            </table>           
+        </div>
+            
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

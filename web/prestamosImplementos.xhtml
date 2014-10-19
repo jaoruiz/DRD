@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <body>
+
+        <ui:composition template="./WEB-INF/plantillas/frontend.xhtml">
+
+            <ui:define name="tituloPestaña">
+                Prestamo Implementos
+            </ui:define>
+
+            <ui:define name="CuadroDeBotonesSesion">
+                
+            </ui:define>
+
+            <ui:define name="OpcionesMenu">
+                
+            </ui:define>
+
+            <ui:define name="contenido">
+                 <h1>Implementos Deportivos | Prestamo</h1>
+        <h:form>
+            <table>
+                <tr>
+                    <td><h:outputText value="*Nombre del Implemento Deportivo"/></td>
+                    <td><h:inputText /></td>
+                </tr>
+                <tr>
+                    <td><h:outputText value="Cantidad: "/></td>
+                    <td>
+                        <h:selectOneMenu>
+                            <f:selectItem itemLabel="1"/>
+                            <f:selectItem itemLabel="2"/>
+                            <f:selectItem itemLabel="3"/>
+                        </h:selectOneMenu>
+                    </td>
+                </tr>
+                <tr>
+                    <td><h:outputText value=" Fecha de prestamo"/></td>
+                    <td><h:inputText /></td></tr>
+                <tr>
+                    <td><h:outputText value="*Código o Cédula beneficiado"/></td>
+                    <td><h:inputText /></td>
+                </tr>
+                <tr>
+                    <td><h:outputText value="Nombre beneficiado"/></td>
+                    <td><h:inputText /></td></tr>
+                <tr>
+                    <td><h:outputText value="Tipo de beneficiario"/></td>
+                    <td>
+                        <h:selectOneMenu>
+                            <f:selectItem itemLabel="Estudiante"/>
+                            <f:selectItem itemLabel="Docente"/>
+                            <f:selectItem itemLabel="Administrativo"/>
+                            <f:selectItem itemLabel="Otro"/>
+                        </h:selectOneMenu>
+                    </td>
+                </tr>
+                <tr>
+                    <td><h:outputText value="Estado actual del implemento"/></td>
+                    <td><h:inputTextarea /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><h:commandButton value="Registrar Prestamo"/></td>
+                </tr>
+            </table>
+        </h:form>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

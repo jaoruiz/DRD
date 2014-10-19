@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <body>
+
+        <ui:composition template="./WEB-INF/plantillas/frontend.xhtml">
+
+            <ui:define name="tituloPestaña">
+                Gestion Implementos
+            </ui:define>
+
+            <ui:define name="CuadroDeBotonesSesion">
+               
+            </ui:define>
+
+            <ui:define name="OpcionesMenu">
+                
+            </ui:define>
+
+            <ui:define name="contenido">
+             <div id="subcontent"> 
+             <input class="txtbuscarusu" id="txtbusc" onblur="lostfocusbusc()" onfocus="focusbusc()" type="text" value="Ingrese el nombre o apellido de un usuario"></input>
+              <input class="btnbuscarusu" type="button" value="Buscar"></input>
+              <a class="imgimp" href="#"/>
+              <a class="imgagreg" href="creari.xhtml"/>
+             <h:form>
+            <table class="resimpl">
+                
+                <tr><th>Id</th><th>Nombre</th><th>Tipo</th><th>Acciones</th></tr>
+                <tr><td>001</td><td>balon de voleybol</td><td>inflable de cuero</td><td><a href="editari.xhtml">Editar</a>&ensp;&ensp;<a href="eliminari.xhtml">Eliminar</a></td> </tr>
+                
+            </table>
+        </h:form>
+             </div>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

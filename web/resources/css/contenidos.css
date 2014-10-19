@@ -1,0 +1,594 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/10/2014, 09:39:09 AM
+    Author     : geovanny
+*/
+
+
+
+#Cdu
+{
+    width: 1200px;
+    height: 470px;
+    background: url(../imagenes/ImagensCdu/Cdu.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#div1
+{
+    float: left;
+    width: 420px;
+    height: 145px;    
+}
+#coliseo
+{    
+    float: left;    
+    width: 260px;
+    height: 145px;   
+}
+#pistaPatinaje
+{   
+    float: left;
+    width: 215px;
+    height: 145px;        
+}
+#areaKiosko_karate_piscina
+{
+    float: left;
+    width: 140px;
+    height: 145px;    
+}
+#kiosko
+{
+    width: 60px;
+    height: 50px;
+}
+#karate
+{
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;    
+}
+#piscinaCarreras1
+{    
+    width: 140px;
+    height: 40px;    
+}
+#div2
+{
+    clear: left;
+    width: 35px;
+    height: 70px;    
+    float:left;
+}
+#cancha6Baloncesto
+{
+    float: left;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;    
+}
+#cancha7Baloncesto
+{
+    float: left;    
+    width: 180px;
+    height: 70px;
+}
+#div3
+{
+    float: left;    
+    width: 210px;
+    height: 70px;    
+}
+#cancha2Futsal
+{
+    float: left;    
+    width: 125px;
+    height: 70px;    
+}
+#div4
+{
+    float: left;    
+    width: 15px;
+    height: 70px;    
+}
+#cancha1MicroBaloncesto
+{
+    float: left;    
+    width: 105px;
+    height: 70px;    
+}
+#piscinaClavados
+{
+    float: left;
+    margin-top: 20px;
+    width: 90px;
+    height: 50px;    
+}
+#piscinaCarreras2
+{
+    float: left;    
+    width: 120px;
+    height: 70px;    
+}
+#cancha5futsal
+{
+    clear: left;
+    margin-top: 15px;
+    width: 190px;
+    height: 70px;    
+    float:left;  
+}
+#div5
+{
+    float:left;    
+    width: 10px;
+    height: 85px;   
+    
+}
+#cancha4voleibol
+{
+    float:left;
+    margin-top: 15px;
+    width: 145px;
+    height: 70px;    
+}
+
+#cancha3Futsal
+{
+    float: left;
+    width: 170px;
+    height: 40px;
+    
+}
+#pistaAtletica1
+{
+    float:left;
+    margin-top: 20px;
+    width: 250px;
+    height: 35px;    
+}
+#div6
+{
+    float: left;
+    width: 185px;
+    height: 85px;    
+}
+
+#taekwondo
+{   
+    float: left;
+    margin-top: 40px;
+    width: 80px;
+    height: 45px;   
+}
+#div7
+{
+    clear: left;    
+    width: 350px;
+    height: 70px;       
+    float:left;
+}
+#canchaFuboltCDU
+{
+    float:left;    
+    width: 355px;
+    height: 70px;       
+}
+#pistaAtletica2
+{
+    float:left;
+    margin-left: 30px;
+    width: 95px;
+    height: 70px;    
+}
+#div8
+{
+    clear: left;    
+    width: 215px;
+    height: 95px;    
+    float:left;    
+}
+#pistaAtletica
+{
+    float:left;
+    width: 600px;
+    height: 95px;    
+}
+#coliseo:hover
+{    
+    cursor: pointer; 
+    margin-left: 10px;
+    width: 290px;
+    height: 200px;
+    background: url(../imagenes/ImagensCdu/sel_coliseo.png) no-repeat;     
+    border-radius: 10px;    
+}
+#pistaPatinaje:hover
+{
+    cursor: pointer;    
+    width: 320px;
+    height: 145px;
+    background: url(../imagenes/ImagensCdu/sel_pistaPatinaje.png) no-repeat;   
+    border-radius: 10px;    
+}
+
+#kiosko:hover
+{
+    cursor: pointer;
+    width: 115px;
+    height: 145px;
+    background: url(../imagenes/ImagensCdu/sel_dojoAikido.png) no-repeat; 
+    border-radius: 10px;    
+}
+#karate:hover
+{   
+    cursor: pointer;
+    width: 130px;
+    height: 140px;
+    background: url(../imagenes/ImagensCdu/sel_dojoKarate.png) no-repeat;
+    border-radius: 10px;     
+}
+#piscinaCarreras1:hover
+{   
+    cursor: pointer;
+    width: 235px;
+    height: 183px;
+    background: url(../imagenes/ImagensCdu/sel_piscinaCarreras.png) no-repeat;    
+    border-radius: 10px;
+}
+#cancha6Baloncesto:hover
+{    
+    cursor:pointer;
+    width: 230px;
+    height: 140px;
+    background: url(../imagenes/ImagensCdu/sel_cancha6.png) no-repeat;
+    border-radius: 10px;    
+}
+#cancha7Baloncesto:hover
+{  
+    cursor:pointer;
+    width: 260px;
+    height: 135px;
+    background: url(../imagenes/ImagensCdu/sel_cancha7.png) no-repeat;
+    border-radius: 10px;   
+}
+#cancha2Futsal:hover
+{   
+    cursor:pointer;
+    width: 160px;
+    height: 190px;
+    background: url(../imagenes/ImagensCdu/sel_cancha2.png) no-repeat;
+    border-radius: 10px;   
+}
+#cancha1MicroBaloncesto:hover
+{
+    cursor: pointer;    
+    width: 160px;
+    height: 195px;
+    background: url(../imagenes/ImagensCdu/sel_cancha1.png) no-repeat;
+    border-radius: 10px;  
+    
+}
+#piscinaClavados:hover
+{   
+    cursor: pointer; 
+    width: 160px;
+    height: 180px;
+    background: url(../imagenes/ImagensCdu/sel_piscinaClavados.png) no-repeat;
+    border-radius: 10px;      
+}
+#piscinaCarreras2:hover
+{   
+    cursor:pointer;
+    width: 220px;
+    height: 180px;
+    background: url(../imagenes/ImagensCdu/sel_piscinaCarreras.png) no-repeat;
+    border-radius: 10px;
+    
+         
+}
+#cancha5futsal:hover
+{
+    cursor: pointer;
+    width: 240px;
+    height: 165px;
+    background: url(../imagenes/ImagensCdu/sel_cancha5.png) no-repeat;
+    border-radius: 10px;   
+}
+#cancha4voleibol:hover
+{
+    cursor: pointer;
+    width: 185px;
+    height: 155px;
+    background: url(../imagenes/ImagensCdu/sel_cancha4.png) no-repeat;
+    border-radius: 10px;       
+}
+#cancha3Futsal:hover
+{   
+    cursor: pointer;
+    width: 220px;
+    height: 145px;
+    background: url(../imagenes/ImagensCdu/sel_cancha3.png) no-repeat;
+    border-radius: 10px; 
+   
+}
+#pistaAtletica1:hover
+{
+    cursor: pointer;    
+     width: 480px;
+    height: 230px;
+    background: url(../imagenes/ImagensCdu/sel_pistaAtletismo.png) no-repeat;
+    border-radius: 10px;       
+}
+#taekwondo:hover
+{   
+    cursor: pointer;
+    width: 180px;
+    height: 170px;
+    background: url(../imagenes/ImagensCdu/sel_dojoTaekwondo.png) no-repeat;
+    border-radius: 10px;    
+}
+#canchaFuboltCDU:hover
+{
+    cursor: pointer;    
+    width: 580px;
+    height: 175px;
+    background: url(../imagenes/ImagensCdu/sel_canchafutbol.png) no-repeat;
+    border-radius: 10px;       
+}
+#pistaAtletica2:hover
+{
+    cursor: pointer;
+    margin-left: 0;
+    width: 475px;
+    height: 225px;
+    background: url(../imagenes/ImagensCdu/sel_pistaAtletismo.png) no-repeat;
+    border-radius: 10px;    
+}
+#pistaAtletica:hover
+{
+    cursor: pointer;
+    width: 595px;
+    height: 295px;
+    background: url(../imagenes/ImagensCdu/sel_pistaAtletismo.png) no-repeat;
+    border-radius: 10px;
+    background-size: cover;       
+}
+
+#ventana
+{
+    display:none;
+}
+
+
+#sesionombre{
+   float: right;
+}
+
+#sesioncontraseña{
+   float: right;
+}
+#olvidocontraseña{
+   float: right;
+}
+#BtnInicio{
+    float: right;
+}
+#titulomenuSGRD{
+    text-align: center;
+}
+#contenidoSGRD{
+    margin-left: 500px;
+}
+#SGRDizquierda{
+    width: 200px;
+    height: 200px;
+    float: left;    
+    margin-left:  300px;
+    border-radius: 20px;
+    background: silver;
+}
+#SGRDcentro{
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+    margin-left: 10px;
+    border-radius: 20px;
+    background: silver;
+}
+#SGRDderecha{
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+    margin-left: 10px;
+    border-radius: 20px;
+    background: silver;
+}
+#SGRDaux{
+    clear: left;
+}
+
+
+.Contenido
+{
+  overflow: hidden; 
+  margin: 30px;  
+}
+
+.separatorline {
+    border: 1px dotted darkslategray;
+    width: 95%;
+    margin-left: 15px; 
+    float: left;
+} 
+
+#titcont
+{
+  color: #0B0B3B;
+  width: 100%;
+  float: left;
+  padding: 25px;
+}
+
+#titcont h1
+{
+  color: #0B0B3B;
+  display: inline-block;
+  margin-top: 10px;
+  float: left;
+  
+}
+#titcont img
+{
+  display: inline-block;
+  margin-bottom: 10px;
+  float: left;
+}
+#titcont a.imgatras
+{
+    background:  url(../imagenes/ImagensCdu/Atras.PNG) no-repeat;
+    float: right;
+    margin-right: 122px;
+    width: 94px;
+    height: 47px;
+    display: block;
+}
+
+#titcont a.imgatras:active
+{
+    background:  url(../imagenes/ImagensCdu/AtrasPressed.PNG) no-repeat;
+}
+#menulat
+{
+   margin-top: 30px;
+   width: 250px; 
+   height: 450px;
+   border: 1px solid #000000;
+   float: left;
+   background-color: #d6e9c6;
+    
+}
+#menulat ul
+
+{
+    text-align: left;
+    alignment-adjust: initial;
+}
+#menulat li
+{
+    alignment-adjust: baseline;
+    font-size: 25px;
+    display: block; 
+    margin-top: 10px;  
+    
+}
+#menulat li:hover
+{
+  background-color: #5bc0de;
+}
+#menulat li a
+{
+  display:  block;
+  width: 100%;
+  text-decoration: none;
+}
+
+#subcontent
+{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: auto; 
+    float: left;
+  
+}
+
+#subcontent a.imgimp
+{
+    background:  url(../imagenes/ImagensCdu/ImprimirImg.png) no-repeat;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 139px;
+    height: 52px;
+    display: block;
+}
+
+#subcontent a.imgimp:active
+{
+    background:  url(../imagenes/ImagensCdu/ImprimirImgPressed.png) no-repeat;
+        
+}
+#subcontent a.imgagreg
+{
+    background:  url(../imagenes/ImagensCdu/AgregarResImpl.png) no-repeat;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 225px;
+    height: 52px;
+    display: block;
+}
+
+#subcontent a.imgagreg:active
+{
+    background:  url(../imagenes/ImagensCdu/AgregarResImplPressed.png) no-repeat;
+}
+
+#subcontent input.txtbuscarusu
+{
+    width: 280px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: small;
+    float: left;
+}
+#subcontent input.btnbuscarusu
+{
+    width: 75px;
+    height: 35px;
+    margin-left: 25px;
+    float: left;
+}
+#subcontent table.resimpl
+{
+    width: 900px;
+    border-collapse: collapse;
+}
+#subcontent table.resximpl
+{
+    width: 1150px;
+    border-collapse: collapse;
+}
+#subcontent td, #subcontent th {
+    font-size: 1.1em;
+    border: 1px solid #98bf21;
+    padding: 15px 3px 5px 15px;
+    background-color: #f5f5f5;
+    overflow-wrap: normal;
+    text-wrap: normal;
+}
+
+#subcontent th {
+    font-size: 1.4em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #f8efc0;
+    color: gray;
+}
+#subcontent tr.alt td {
+    background-color: #c9e2b3;
+}
+#subcontent table a 
+{
+    color: #d9534f;
+}
